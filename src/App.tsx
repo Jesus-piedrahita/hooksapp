@@ -1,7 +1,10 @@
+import { TrafficLightEffect } from "./semaforo/TrafficLightEffect";
+
 export  default function App() {
   return (
     <>
-      <h1>Hello, React! hooksapp</h1>
+      {/* < TrafficLight /> */}
+      <TrafficLightEffect />
     </>
   )
 }
