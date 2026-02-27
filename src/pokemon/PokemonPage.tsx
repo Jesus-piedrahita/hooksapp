@@ -6,7 +6,6 @@ export const PokemonPage = () => {
   const {counter, increment, decrement} = useCounter({id: 1});
   const {data} = useQueryApiGet({id: counter});
 
-
   return (
     <div className="bg-gradient flex flex-col items-center">
       <h1 className="text-2xl font-thin text-white">Pokémon</h1>

@@ -1,20 +1,20 @@
 import { useState } from "react";
 
-interface counterHook {
+interface CounterHook {
     // properties
     id: number;
 }
 
-export function useCounter({id}: counterHook) {
+export function useCounter({id}: CounterHook) {
     const [counter, setCounter] = useState(id);
 
     const increment = () => {
-        setCounter(prev => prev + 1);
+        setCounter(counter + 1);
     }
 
     const decrement = () => {
         if (counter <= 1) return;
-        setCounter(prev => prev - 1);
+        setCounter(counter - 1);
     }
 
     return {
