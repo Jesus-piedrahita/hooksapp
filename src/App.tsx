@@ -1,8 +1,7 @@
 // import { TrafficLightEffect } from "./semaforo/TrafficLightEffect";
-
-import { FocusScreen } from "./formAutoFocus/FocusScreen";
-
+// import { FocusScreen } from "./formAutoFocus/FocusScreen";
 // import { PokemonPage } from "./pokemon/PokemonPage";
+import { TasksApp } from "../src/todos/TaskApp";
 
 export  default function App() {
   return (
@@ -10,7 +9,8 @@ export  default function App() {
       {/* < TrafficLight /> */}
       {/* <TrafficLightEffect /> */}
       {/* <PokemonPage /> */}
-      <FocusScreen />
+      {/* <FocusScreen /> */}
+      <TasksApp />
     </>
   )
 }
