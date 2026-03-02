@@ -1,7 +1,8 @@
 // import { TrafficLightEffect } from "./semaforo/TrafficLightEffect";
 // import { FocusScreen } from "./formAutoFocus/FocusScreen";
 // import { PokemonPage } from "./pokemon/PokemonPage";
-import { TasksApp } from "../src/todos/TaskApp";
+// import { TasksApp } from "../src/todos/TaskApp";
+import { ScrambleWords } from "./jumbledWords/JumbledWords";
 
 export  default function App() {
   return (
@@ -10,7 +11,8 @@ export  default function App() {
       {/* <TrafficLightEffect /> */}
       {/* <PokemonPage /> */}
       {/* <FocusScreen /> */}
-      <TasksApp />
+      {/* <TasksApp /> */}
+      <ScrambleWords />
     </>
   )
 }
